@@ -24,8 +24,8 @@
 
     <DocSectionText>
         <p>
-            Alternatively, a <i>CheckboxGroup</i> wrapper can be used to group checkboxes. In this case, the <i>v-model</i> should be defined on the <i>CheckboxGroup</i>, not on the individual checkboxes.
-            When a Checkbox is inside a CheckboxGroup, it reads and writes the group's value instead of its own.
+            Alternatively, a <i>CheckboxGroup</i> wrapper can be used to group checkboxes. In this case, the <i>v-model</i> should be defined on the <i>CheckboxGroup</i>, not on the individual checkboxes. When a Checkbox is inside a CheckboxGroup, it
+            reads and writes the group's value instead of its own.
         </p>
     </DocSectionText>
     <div class="card flex flex-wrap justify-center gap-4">

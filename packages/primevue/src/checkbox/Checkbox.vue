@@ -57,7 +57,7 @@ export default {
             this.d_indeterminate = newValue;
 
             this.updateIndeterminate();
-        },
+        }
     },
     mounted() {
         this.updateIndeterminate();

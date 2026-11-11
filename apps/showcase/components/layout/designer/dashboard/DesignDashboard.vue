@@ -350,7 +350,9 @@ export default {
             return this.$appState.designer.themeLimit ? 100 * (this.$appState.designer.themes.length / this.$appState.designer.themeLimit) : 0;
         },
         coverImage() {
-            return this.$appState.darkTheme ? 'https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/designer/editor-intro-dark.png' : 'https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/designer/editor-intro.png';
+            return this.$appState.darkTheme
+                ? 'https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/designer/editor-intro-dark.png'
+                : 'https://fqjltiegiezfetthbags.supabase.co/storage/v1/object/public/common.images/designer/editor-intro.png';
         }
     }
 };

@@ -27,7 +27,6 @@
 </template>
 
 <script>
-
 export default {
     data() {
         return {
@@ -121,13 +120,13 @@ onMounted(() => {
 const nodes = ref();
 
 <\/script>
-`,
+`
             }
         };
     },
     methods: {
         loadDemoData() {
-            this.nodes = Array.from({ length: 10 }).map((_, i) => ({id: i.toString()}));
+            this.nodes = Array.from({ length: 10 }).map((_, i) => ({ id: i.toString() }));
         }
     }
 };

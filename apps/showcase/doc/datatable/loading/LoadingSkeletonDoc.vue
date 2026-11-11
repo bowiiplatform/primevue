@@ -32,7 +32,6 @@
 </template>
 
 <script>
-
 export default {
     data() {
         return {
@@ -141,13 +140,13 @@ onMounted(() => {
 const products = ref();
 
 <\/script>
-`,
+`
             }
         };
     },
     methods: {
         loadDemoData() {
-            this.products = Array.from({ length: 10 }).map((_, i) => ({id: i.toString()}));
+            this.products = Array.from({ length: 10 }).map((_, i) => ({ id: i.toString() }));
         }
     }
 };
